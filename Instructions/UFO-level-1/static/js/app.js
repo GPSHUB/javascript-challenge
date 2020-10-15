@@ -36,7 +36,7 @@ function runEnter() {
   // console.log(inputValue2);
   console.log(varData);
 
-  // Use the form input to filter the data by blood type
+  // Use the form input to filter the data by
   let filteredData = varData.filter(sighting => sighting.datetime === inputValue ); //&& sighting.city == inputValue2
   filteredData.forEach(addRow)
   console.log(filteredData);
